@@ -10,7 +10,7 @@ If you intend to extend support for non-EVM chains in your wallet or dapp, it is
 
 No, the bridge servers are v1 only.
 
-## How can I reconnect to the same pairing if my browser was restarted?
+## How can I reconnect to the same pairing if my browser is restarted?
 
 The `signClient` will restore & reconnect its pairings automatically after the page is reloaded. All pairings are stored on the page's `localStorage`.
 
@@ -34,4 +34,4 @@ You are more than welcome to utilize a custom URI parameter during testing. Howe
 
 ## Why is self-hosting not an option at this time? Are there plans to make this possible in the future?
 
-We understand the desire for developers to self-host their own relay. We share this vision, and have embarked on a decentralization roadmap in order to achieve this. By the end of this summer, we will launch a permissioned network and invite a select group of partners to participate in this crucial first phase. Our objective is to make self-hosting relay a reality with the creation of the decentralized WalletConnect Network, and we appreciate your patience as we progress in this enormous mission.
+We understand the desire for developers to self-host their own relay. We share this vision and have embarked on a decentralization roadmap in order to achieve this. By the end of this summer, we will launch a permissioned network and invite a select group of partners to participate in this crucial first phase. Our objective is to make self-hosting relay a reality with the creation of the decentralized WalletConnect Network, and we appreciate your patience as we progress in this enormous mission.
