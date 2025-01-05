@@ -18,7 +18,7 @@ It is recommended that you use WalletConnect Cloud for simplicity and ease of in
 
 ![create-push-url](/assets/create-push-url.png)
 
-3. From the same settings tab, you will see the FCM and the APNS settings becomes available to setup. Add your [FCM](#Firebase Cloud Messaging API (FCM v1)) and/or [APNs](#apple-push-notifications-apns) details.
+3. From the same settings tab, you will see the FCM and the APNS settings become available to set up. Add your [FCM](#Firebase Cloud Messaging API (FCM v1)) and/or [APNs](#apple-push-notifications-apns) details.
 
 ![fmc-and-apns-details-form](/assets/apns-fmc-details.png)
 
@@ -44,9 +44,9 @@ If you already have FCM Legacy enabled and then enable FCM v1, push notification
     ![Create new key](/assets/push-fcmv1-sa-new-key.png)
   - Select _JSON_ and click _Create_
   - A `.json` file containing the service account credentials will be automatically downloaded to your computer
-- Upload the credentaials JSON file to your Cloud project's FCM V1 settings and click _Save_
+- Upload the credentials JSON file to your Cloud project's FCM V1 settings and click _Save_
 
-You should now see a green checkbox indicating that FCM V1 has been enabled! Now any clients that register themselves on the Push Server will receive FCM push notifications for relay messages to that client.
+You should now see a green checkbox indicating that FCM V1 has been enabled! Now any clients that register themselves on the Push Server will receive FCM push notifications to relay messages to that client.
 
 ### Cloud Messaging API (FCM Legacy)
 
@@ -58,7 +58,7 @@ FCM Legacy is deprecated and [will be removed June 20, 2024](https://firebase.go
 When FCM v1 is enabled in WalletConnect Cloud, it will replace the use of the legacy FCM API. No migration of devices/apps is necessary.
 :::
 
-Google's FCM allows you to use send notifications to both Android and Apple devices. At this time, we only support apps using the FCM client API.
+Google's FCM allows you to send notifications to both Android and Apple devices. At this time, we only support apps using the FCM client API.
 
 - Enable Legacy Cloud Messaging API in the Firebase project settings
   ![legacy-fcm-cloud-messaging](/assets/legacy-fcm-cloud-messaging-api.png)
